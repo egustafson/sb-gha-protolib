@@ -7,6 +7,13 @@ Versioning.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-04-23
+
+### Added
+
+- Added a dedicated `Release` workflow that runs regression testing on tag
+  pushes via `egustafson/sb-gha-prototest`.
+
 ## [0.2.0] - 2026-04-23
 
 ### Added

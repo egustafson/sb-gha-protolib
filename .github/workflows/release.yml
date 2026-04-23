@@ -1,0 +1,13 @@
+name: Release
+
+'on':
+  push:
+    tags:
+      - '*'
+
+jobs:
+  regression-test-on-tag:
+    uses: egustafson/sb-gha-prototest/.github/workflows/regression-test.yml@main
+    with:
+      revision: ${{ github.ref_name }}
+      python-version: '3.14'
