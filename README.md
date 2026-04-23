@@ -60,7 +60,7 @@ Common commands:
 ```bash
 act push
 act pull_request
-act push --tag v0.3.0
+act push --tag v0.3.1
 act -j lint-and-test
 ```
 
@@ -85,4 +85,4 @@ make build
 
 The build target produces the source distribution and wheel in `dist/`.
 
-Current release: `v0.3.0`.
+Current release: `v0.3.1`.

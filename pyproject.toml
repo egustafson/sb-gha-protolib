@@ -1,19 +1,19 @@
 [build-system]
-requires = ["setuptools>=69", "wheel"]
+requires = ["setuptools>=78.1.1", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "sb-gha-protolib"
-version = "0.3.0"
+version = "0.3.1"
 description = "Prototype greeting library and CLI example for GitHub Actions workflows"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = []
 
 [dependency-groups]
 dev = [
 	"build>=1.2.0",
-	"pytest>=8.0",
+	"pytest>=9.0.3",
 	"ruff>=0.11.0",
 ]
 

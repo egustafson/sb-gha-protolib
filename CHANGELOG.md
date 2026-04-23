@@ -7,6 +7,17 @@ Versioning.
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-04-23
+
+### Changed
+
+- Lowered the minimum supported Python version to 3.10 and aligned CI and
+  release workflows to use Python 3.10.
+- Raised dependency minimums to security-fixed versions:
+  - `setuptools>=78.1.1`
+  - `pytest>=9.0.3`
+- Updated release documentation references to `v0.3.1`.
+
 ## [0.3.0] - 2026-04-23
 
 ### Added
