@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sb-gha-protolib"
-version = "0.3.1"
+version = "0.3.2"
 description = "Prototype greeting library and CLI example for GitHub Actions workflows"
 readme = "README.md"
 requires-python = ">=3.10"

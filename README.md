@@ -60,7 +60,7 @@ Common commands:
 ```bash
 act push
 act pull_request
-act push --tag v0.3.1
+act push --tag v0.3.2
 act -j lint-and-test
 ```
 
@@ -72,7 +72,7 @@ Notes:
 Release
 -------
 
-The repository is prepared for the `v0.3.0` release.
+The repository is prepared for the `v0.3.2` release.
 
 Use this sequence to validate and produce the release artifacts:
 
@@ -85,4 +85,6 @@ make build
 
 The build target produces the source distribution and wheel in `dist/`.
 
-Current release: `v0.3.1`.
+Tag pushes trigger the dedicated `Release` workflow for regression testing.
+
+Current release: `v0.3.2`.

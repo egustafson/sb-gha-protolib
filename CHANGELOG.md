@@ -7,6 +7,14 @@ Versioning.
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-04-23
+
+### Changed
+
+- Updated CI to run only on branch pushes and pull requests (removed tag push
+  trigger).
+- Updated release documentation references to `v0.3.2`.
+
 ## [0.3.1] - 2026-04-23
 
 ### Changed
