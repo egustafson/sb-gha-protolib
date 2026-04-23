@@ -50,6 +50,25 @@ Install the development dependencies and run the unit tests with:
 make test
 ```
 
+Run GitHub Actions Workflow Locally
+-----------------------------------
+
+You can run the CI workflow locally with `act`.
+
+Common commands:
+
+```bash
+act push
+act pull_request
+act push --tag v0.1.0
+act -j lint-and-test
+```
+
+Notes:
+
+- `act` requires Docker.
+- Workflow behavior is close to GitHub-hosted runners, but not identical.
+
 Release
 -------
 
